@@ -1,14 +1,16 @@
 <script>
 
-    import Nav from './Nav.vue'
+    import Nav from './Nav.vue';
+    import HeaderButton from './HeaderButton.vue';
 
 
 export default {
     name: 'Header',
 
     components: {
-        Nav,
-    }
+            Nav,
+            HeaderButton,
+}
 
 }
 
@@ -17,7 +19,11 @@ export default {
 <template>
 
 <header class="w-full flex flex-row items-center justify-between py-6 px-4">
-<img src="#" alt="TaxBuddy" class="logo">
+<div>
+
+    <p class="text-black text-2xl font-bold"><span class="text-blue-700">Tax</span>Buddy</p>
+
+</div>
    
 
 
@@ -29,14 +35,17 @@ export default {
     </div>
 
 
-    <div class="ml-36">
+    <div class="ml-24">
         <a href="#" class="hidden lg:inline">Sign In</a>
 
-        <button class="header-btn bg-blue-600 py-1 px-2  rounded-full hover:bg-blue-700">Get Started <span class="hidden lg:inline">Today</span></button>
+       <div>
+       
+        <HeaderButton />
+       </div>
     
     </div>
 
-    <div class="hamburger-btn w-8 inline place-center ">
+    <div class="hamburger-btn w-8 inline place-center cursor-pointer">
         <div class="burger-top w-5 my-1  bg-black "></div>
         <div class="burger-middle w-5 my-1 bg-black "></div>
         <div class="burger-bottom w-5 my-1 bg-black "></div>
