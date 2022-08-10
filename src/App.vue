@@ -75,7 +75,9 @@ export default {
           src: '/tuple.png'
 
 
-        }]
+        }
+        
+        ]
 
 
     }
