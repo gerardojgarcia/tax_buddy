@@ -18,7 +18,7 @@ export default {
 </script>
 <template>
 
-<header class="w-full flex flex-row items-center justify-between py-6 px-4">
+<header class="w-full flex flex-row items-center justify-between py-8 px-4">
 <div>
 
     <p class="text-black text-2xl font-bold"><span class="text-blue-700">Tax</span>Buddy</p>
@@ -35,7 +35,7 @@ export default {
     </div>
 
 
-    <div class="ml-24">
+    <div class="ml-20">
         <a href="#" class="hidden lg:inline">Sign In</a>
 
        <div>
