@@ -5,6 +5,7 @@ import HeaderButton from './components/HeaderButton.vue';
 import Hero from './components/Hero.vue'
 import Trusted from './components/Trusted.vue'
 import TrustedCard from './components/TrustedCard.vue'
+import Features from './components/Features.vue'
 
 export default {
   components: {
@@ -13,7 +14,8 @@ export default {
     HeaderButton,
     Hero,
     Trusted,
-    TrustedCard
+    TrustedCard,
+    Features,
   },
 
 
@@ -99,6 +101,7 @@ export default {
     <Header/>
     <Hero />
     <Trusted :partners="partners"/>
+    <Features/>
   
   
   
