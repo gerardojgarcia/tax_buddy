@@ -20,6 +20,10 @@ methods: {
         const report = document.querySelector('#report')
         const reportBtn = document.querySelector('#report-btn')
 
+        const claimImg = document.getElementById('claim-img')
+         const reportImg = document.getElementById('report-img')
+          const expenseImg = document.getElementById('expense-img')
+
         payroll.classList.toggle('display')
         payrollBtn.classList.toggle('selected')
 
@@ -28,6 +32,11 @@ methods: {
 
          report.classList.add('display')
         reportBtn.classList.remove('selected')
+
+        claimImg.classList.add('display')
+        expenseImg.classList.add('display')
+
+        reportImg.classList.remove('display')
 
         
 
@@ -44,14 +53,24 @@ methods: {
         const report = document.querySelector('#report')
         const reportBtn = document.querySelector('#report-btn')
 
+        const claimImg = document.getElementById('claim-img')
+         const reportImg = document.getElementById('report-img')
+          const expenseImg = document.getElementById('expense-img')
+
         payroll.classList.add('display')
         payrollBtn.classList.remove('selected')
 
         claim.classList.toggle('display')
         claimBtn.classList.toggle('selected')
 
-    report.classList.add('display')
+        report.classList.add('display')
         reportBtn.classList.remove('selected')
+
+        reportImg.classList.add('display')
+        expenseImg.classList.add('display')
+        claimImg.classList.remove('display')
+
+
 
 
     },
@@ -64,6 +83,10 @@ methods: {
         const report = document.querySelector('#report')
         const reportBtn = document.querySelector('#report-btn')
 
+         const claimImg = document.getElementById('claim-img')
+         const reportImg = document.getElementById('report-img')
+          const expenseImg = document.getElementById('expense-img')
+
 
         report.classList.toggle('display')
         reportBtn.classList.toggle('selected')
@@ -72,6 +95,10 @@ methods: {
         claimBtn.classList.remove('selected')
           payroll.classList.add('display')
         payrollBtn.classList.remove('selected')
+
+          claimImg.classList.add('display')
+        expenseImg.classList.remove('display')
+        reportImg.classList.add('display')
 
     }
 }
@@ -116,18 +143,18 @@ methods: {
         
         </div>
 
-        <div class="feature-description text-gray-300 px-4">
-            <p id="payroll" class=" ">Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p>
-            <p id="claim" class="display">All of your receipts organized into one place, as long as you don't mind typing in the data by hand.</p>
+        <div class="feature-description text-left flex flex-col items-center my-4 text-gray-300 px-4">
+            <p id="payroll" class=" w-1/2 ">Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p>
+            <p id="claim" class="display w-1/2">All of your receipts organized into one place, as long as you don't mind typing in the data by hand.</p>
             
-            <p id="report" class="display">Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.</p>
+            <p id="report" class="display w-1/2">Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.</p>
         </div>
 
-        <div class="features-img">
+        <div class="features-imgs">
         
-            <img src="/" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <img src="/claims.png" id="claim-img" alt="Image of the claims dashboard" class="feature-img translate-x-52  shadow-lg display">
+            <img src="/reports.png" id="report-img" alt="Image of the reports dashboard" class="feature-img translate-x-52  shadow-lg">
+            <img src="/expenses.png" id="expense-img" alt="Image of the expenses dashboard" class="feature-img display translate-x-52  shadow-lg">
         
         </div>
     </div>
@@ -154,11 +181,19 @@ methods: {
 .selected {
     background-color: white;
     border-radius: 50rem;
-    color: black;
+    color: rgb(48, 48, 224);
 }
 
 
 .display {
     display: none;
+}
+
+.feature-img {
+    height: 500px;
+    min-width: 800px;
+
+    z-index: 3;
+
 }
 </style>
