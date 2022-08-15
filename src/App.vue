@@ -6,17 +6,19 @@ import Hero from './components/Hero.vue'
 import Trusted from './components/Trusted.vue'
 import TrustedCard from './components/TrustedCard.vue'
 import Features from './components/Features.vue'
+import Simplify from './components/Simplify.vue';
 
 export default {
   components: {
     Header,
-    Nav, 
+    Nav,
     HeaderButton,
     Hero,
     Trusted,
     TrustedCard,
     Features,
-  },
+    Simplify
+},
 
 
   data() { 
@@ -102,7 +104,7 @@ export default {
     <Hero />
     <Trusted :partners="partners"/>
     <Features/>
-  
+  <Simplify/>
   
   
   </div>
