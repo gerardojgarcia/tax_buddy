@@ -10,8 +10,8 @@ export default {
 
     <div class="w-full flex flex-col bg-blue-300">
         <div class="flex flex-col px-4 py-4 bg-white">
-            <h4 class="text-4xl text-left mt-16">Simplify Everyday business tasks.</h4>
-            <p class="text-left py-4">Because you'd probably be a little confused if we suggested you complicate your
+            <h4 class="text-3xl w-3/4 font-bold text-left mt-16">Simplify everyday business tasks.</h4>
+            <p class="text-left text-lg py-4">Because you'd probably be a little confused if we suggested you complicate your
                 everyday business tasks instead</p>
         </div>
 
@@ -19,12 +19,12 @@ export default {
              
 
 
-            <div class="text-left w-full px-4 isolate shadow bg-white rounded pb-10 pt-8">
+            <div class="text-left w-full px-4 isolate shadow bg-white rounded pb-10 pt-10">
 
                <div class="self-start  text-4xl   bg-white rounded ">
-                    <div class="bg-blue-500 w-16 h-16 flex flex-col justify-center rounded-lg items-center">
+                    <div class="bg-blue-500 w-10 h-10 flex flex-col justify-center rounded-lg items-center">
                     
-                    <i class="fa-solid fa-chart-line text-white  "></i>
+                    <i class="fa-solid fa-chart-line text-white text-base "></i>
                     
                     </div>
 
@@ -32,7 +32,7 @@ export default {
                 </div>
 
 
-                <p class="text-blue-600 py-4">Reporting</p>
+                <p class="text-blue-600 pt-8 pb-4">Reporting</p>
                 <strong class="text-2xl font-normal my-4">Stay on top of things with always up-to-date reporting features. </strong>
 
                 <p class="py-4 text-gray-500">We talked about reporting the stection above but we needed three tiems
@@ -53,17 +53,17 @@ export default {
 
            
 
-            <div class="text-left w-full px-4 isolate shadow bg-white rounded pb-10 pt-8">
+            <div class="text-left w-full px-4 isolate shadow bg-white rounded pb-10 pt-10">
             <div class="self-start  text-4xl   bg-white rounded ">
-                    <div class="bg-blue-500 w-16 h-16 flex flex-col justify-center rounded-lg items-center">
+                    <div class="bg-blue-500 w-10 h-10 flex flex-col justify-center rounded-lg items-center">
                     
-                    <i class="fa-solid fa-bars-staggered text-white  "></i>
+                    <i class="fa-solid fa-bars-staggered text-white text-base "></i>
                     
                     </div>
 
 
                 </div>
-                <p class="text-blue-600  py-4">Inventory</p>
+                <p class="text-blue-600  pt-8 pb-4">Inventory</p>
                 <strong class="text-2xl font-normal my-4">Never lose track of what's in stock with acfurate inventory tracking. </strong>
 
                 <p class="py-4 text-gray-500">We don't offer this as part of our software but that statement is naarguyably true. Accurate inventory tracking would help you for sure. </p>
@@ -83,17 +83,17 @@ export default {
 
          
 
-            <div class="text-left w-full px-4 isolate shadow bg-white rounded pb-10 pt-8">
+            <div class="text-left w-full px-4 isolate shadow bg-white rounded pb-10 pt-10">
             <div class="self-start  text-4xl   bg-white rounded ">
-                    <div class="bg-blue-500 w-16 h-16 flex flex-col justify-center rounded-lg items-center">
+                    <div class="bg-blue-500 w-10 h-10 flex flex-col justify-center rounded-lg items-center">
                     
-                    <i class="fa-solid fa-users text-white  "></i>
+                    <i class="fa-solid fa-users text-white text-base  "></i>
                     
                     </div>
 
 
                 </div>
-                <p class="text-blue-600 py-4">Contacts</p>
+                <p class="text-blue-600 pt-8 pb-4">Contacts</p>
                 <strong class="text-2xl font-normal my-4">Organize all of your contacts, service, providers, and invoices in one place.  </strong>
 
                 <p class="py-4 text-gray-500 ">This also isn't actually a feature, it's just some friendly advice. We definitely recommend that you do this. You'll feel really organized and pofessional.</p>
