@@ -7,6 +7,7 @@ import Trusted from './components/Trusted.vue'
 import TrustedCard from './components/TrustedCard.vue'
 import Features from './components/Features.vue'
 import Simplify from './components/Simplify.vue';
+import CallToAction from './components/CallToAction.vue';
 
 export default {
   components: {
@@ -17,7 +18,8 @@ export default {
     Trusted,
     TrustedCard,
     Features,
-    Simplify
+    Simplify,
+    CallToAction
 },
 
 
@@ -105,6 +107,7 @@ export default {
     <Trusted :partners="partners"/>
     <Features/>
   <Simplify/>
+  <CallToAction/>
   
   
   </div>
