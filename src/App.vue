@@ -116,7 +116,7 @@ export default {
             id:4,
             name: 'Erin Powlowski',
             position: 'COO at Armstrong Inc',
-            description: "There are so many things I had to do with my old software that I just don't do at all with TaxPal. Suspicious but I can't say i don't love it. "
+            description: "There are so many things I had to do with my old software that I just don't do at all with TaxBuddy. Suspicious but I can't say i don't love it. "
 
           }
         ]
