@@ -10,6 +10,7 @@ import Simplify from './components/Simplify.vue';
 import CallToAction from './components/CallToAction.vue';
 import Testimonials from './components/Testimonials.vue';
 import TestimonialsCard from './components/Testimonials.vue';
+import Pricing from './components/Pricing.vue';
 
 export default {
   components: {
@@ -23,7 +24,8 @@ export default {
     Simplify,
     CallToAction,
     Testimonials,
-    TestimonialsCard
+    TestimonialsCard,
+    Pricing
 },
 
 
@@ -35,7 +37,9 @@ export default {
     return {
 
       partners: [],
-      testimonials:[]
+      testimonials:[],
+      pricing: [],
+
 
     }
 
@@ -119,7 +123,59 @@ export default {
             description: "There are so many things I had to do with my old software that I just don't do at all with TaxBuddy. Suspicious but I can't say i don't love it. "
 
           }
-        ]
+        ],
+
+       this.pricing = [
+          {
+            id:1,
+            price: "15",
+            type: "Small Business",
+            use: "Perfect for small / medium sized businesses.",
+            features: [
+              'Send 25 quotes and invoices',
+              'Connect up to 5 bank accounts',
+              'Track up to 50 expenses per month',
+              'Automated payroll support',
+              'Export up to 12 reports',
+              'Bulk reconcile transactions',
+              'Track in multiple currencies'
+              ]
+
+           
+          },
+           {
+            id:2,
+            price: "9",
+            type: "Starter",
+            use: "Good for anyone who is self-employed and just getting started.",
+            features: [
+              'Send 10 quotes and invoices',
+              'Connect up to 2 bank accounts',
+              'Track up to 15 expenses per month',
+              'Manual payroll support',
+              'Export up to 3 reports',
+              
+              ]
+
+           
+          },
+           {
+            id:3,
+            price: "39",
+            type: "Enterprise",
+            use: "For even the biggest enterprise companies.",
+            features: [
+              'Send unlimited quotes and invoices',
+              'Connect up to 15 bank accounts',
+              'Track up to 200 expenses per month',
+              'Automated payroll support',
+              'Export up to 25 reports, including TPS',
+              ]
+
+           
+          }
+
+       ]
 
 
     }
@@ -145,6 +201,7 @@ export default {
   <Simplify/>
   <CallToAction/>
   <Testimonials :testimonials="testimonials"/>
+  <Pricing :pricing="pricing"/>
   
   
   </div>
