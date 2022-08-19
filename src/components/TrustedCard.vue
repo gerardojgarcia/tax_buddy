@@ -5,6 +5,7 @@ export default {
 
         props: {
             partner: Object,
+            
         },
 methods: {
 
