@@ -32,7 +32,9 @@ export default {
         <PricingCardButton />
 </div>
 
-                <p> {{features}}</p>                
+                <div class="flex flex-col flex-no-wrap ml-8">
+                    <p class="flex flex-col text-left w-1/3 self-start"> <i></i>{{features}}</p>
+                </div>                
 
 
 

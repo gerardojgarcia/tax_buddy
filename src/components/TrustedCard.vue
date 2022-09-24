@@ -36,3 +36,19 @@ methods: {
 
 
 </template>
+
+
+<style scoped>
+
+   @media (min-width: 900px){
+
+        img {
+            width: 10rem;
+            
+        }
+
+
+   }
+
+
+</style>
