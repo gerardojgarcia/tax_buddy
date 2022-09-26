@@ -27,7 +27,7 @@ export default {
     </div>
     
     <div class="w-full flex flex-col md:flex-row md:w-5/6 md:flex-wrap md:mx-16 justify-center items-center">
-        <div class="testimonial-cards  md:flex-row  md:w-1/4 md:mx-8" v-for="testimonial in testimonials" :key="testimonial.id">
+        <div class="testimonial-cards m-4 md:flex-row  md:w-1/4 md:mx-8" v-for="testimonial in testimonials" :key="testimonial.id">
         
         
             <TestimonialsCard :testimonial="testimonial"/>

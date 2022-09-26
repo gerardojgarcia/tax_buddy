@@ -192,11 +192,11 @@ methods: {
 
     <div class="features-header text-left px-4 lg:mb-8 lg:text-center">
     
-        <div class="lg:mb-8 lg:mt-16">
-        <strong class="text-2xl text-white lg:text-5xl ">Everything you need to run your books.</strong>
+        <div class=" mb-8 lg:mb-8 lg:mt-16">
+        <strong class="text-4xl font-normal text-white lg:text-5xl ">Everything you need to run your books.</strong>
         </div>
     
-    <p class="text-white lg:text-lg">Well, everything you need if you aren't that picky about minor details like tax compliance. </p>
+    <p class="text-white text-lg lg:text-lg">Well, everything you need if you aren't that picky about minor details like tax compliance. </p>
 
 
     
@@ -209,12 +209,12 @@ methods: {
             
 
 
-            <FeaturesButton id="payroll-btn" title="Payroll" @click='payroll' class="selected"/>
+            <FeaturesButton id="payroll-btn" title="Payroll" @click='payroll' class="selected text-gray-200" />
 
             
-            <FeaturesButton id="claim-btn" title="Claim Expense" @click="claim" />
+            <FeaturesButton id="claim-btn" title="Claim expenses" @click="claim" class="text-gray-200" />
 
-            <FeaturesButton id="report-btn" title="Reporting" @click="report"/>
+            <FeaturesButton id="report-btn" title="Reporting" @click="report" class="text-gray-200"/>
 
         
         
@@ -237,12 +237,12 @@ methods: {
 
 
         <!-- features container for large screens-->
-        <div class="lg-features-container flex flex-row items-center w-5/6 m-auto">   
+        <div class="lg-features-container hidden lg:flex lg:flex-row items-center w-5/6 m-auto">   
 
         <div class="flex flex-col text-left text-white w-2/5">
-            <div @click="payrollLarge" id="payroll-el" class="w-full mb-8 hover:rounded-xl hover:shadow-lg p-4  cursor-pointer" >
+            <div @click="payrollLarge" id="payroll-el" class=" active w-full mb-8 hover:rounded-xl hover:shadow-lg p-4  cursor-pointer" >
             
-                <div class="py-4">
+                <div >
                 <strong class="text-xl">Payroll</strong>
                 </div>
                 <p id="payroll" >Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p>
@@ -318,7 +318,7 @@ methods: {
 .selected {
     background-color: white;
     border-radius: 50rem;
-    color: rgb(48, 48, 224);
+    color: #2563ea;
 }
 
 
@@ -327,6 +327,7 @@ methods: {
     border-radius: .5rem;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     border:none;
+    color: #2563ea;
 }
 
 .display {

@@ -6,7 +6,7 @@ export default {
 </script>
 <template>
 
-<div class="cta  pt-8  flex flex-col justify-center h-96 lg:text-white">
+<div class="cta  pt-8  flex flex-col justify-center h-96 text-white">
     <div class="flex flex-col items-center ">
         <div class="mx-4 ">
             <h5 class="text-3xl py-2 pb-8 ">Get started today</h5>
