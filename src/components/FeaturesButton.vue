@@ -46,8 +46,12 @@ export default {
 
 
 <style>
+
+    
+
 .btn:hover {
     background-color:rgba(214, 210, 210, 0.115) ;
+
 }
 
 

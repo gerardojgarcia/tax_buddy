@@ -11,8 +11,7 @@ export default {
     <div class="w-full flex flex-col bg-blue-300">
         <div class="flex flex-col px-4 py-4 bg-white">
             <h4 class="text-3xl w-3/4 font-bold text-left mt-16">Simplify everyday business tasks.</h4>
-            <p class="text-left text-lg py-4">Because you'd probably be a little confused if we suggested you complicate your
-                everyday business tasks instead</p>
+            <p class="text-left text-lg py-4">Because you'd probably be a little confused if we suggested you complicate your everyday business tasks instead</p>
         </div>
 
         <div class="simplify-card bg-gray-200 flex flex-col pb-8 ">
@@ -35,8 +34,8 @@ export default {
                 <p class="text-blue-600 pt-8 pb-4">Reporting</p>
                 <strong class="text-2xl font-normal my-4">Stay on top of things with always up-to-date reporting features. </strong>
 
-                <p class="py-4 text-gray-500">We talked about reporting the stection above but we needed three tiems
-                    here, so metnioning it one more time for posterity.</p>
+                <p class="py-4 text-gray-500">We talked about reporting the section above but we needed three tiems
+                    here, so mentioning it one more time for posterity.</p>
 
             </div>
 
@@ -72,7 +71,7 @@ export default {
 
             <div class="w-full shadow-lg z-2 translate-x-4  -translate-y-4">
 
-                <img src="/inventory.png" alt="" class="rounded">
+                <img src="/inventory.png" alt="Image of sample inventory" class="rounded">
 
 
             </div>
@@ -96,7 +95,7 @@ export default {
                 <p class="text-blue-600 pt-8 pb-4">Contacts</p>
                 <strong class="text-2xl font-normal my-4">Organize all of your contacts, service, providers, and invoices in one place.  </strong>
 
-                <p class="py-4 text-gray-500 ">This also isn't actually a feature, it's just some friendly advice. We definitely recommend that you do this. You'll feel really organized and pofessional.</p>
+                <p class="py-4 text-gray-500 ">This also isn't actually a feature, it's just some friendly advice. We definitely recommend that you do this. You'll feel really organized and professional.</p>
 
             </div>
 

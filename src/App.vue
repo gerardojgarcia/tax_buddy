@@ -11,9 +11,13 @@ import CallToAction from './components/CallToAction.vue';
 import Testimonials from './components/Testimonials.vue';
 import TestimonialsCard from './components/Testimonials.vue';
 import Pricing from './components/Pricing.vue';
+import FAQ from "./components/FAQ.vue";
+import Footer from "./components/Footer.vue";
 
 export default {
   components: {
+    Footer,
+    FAQ,
     Header,
     Nav,
     HeaderButton,
@@ -217,6 +221,8 @@ export default {
   <CallToAction/>
   <Testimonials :testimonials="testimonials"/>
   <Pricing :pricing="pricing"/>
+    <FAQ/>
+    <Footer/>
   
   
   </div>

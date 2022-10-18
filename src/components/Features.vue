@@ -192,18 +192,18 @@ methods: {
 
     <div class="features-header text-left px-4 lg:mb-8 lg:text-center">
     
-        <div class=" mb-8 lg:mb-8 lg:mt-16">
+        <div class=" mb-8 mt-6 lg:mb-8 lg:mt-16">
         <strong class="text-4xl font-normal text-white lg:text-5xl ">Everything you need to run your books.</strong>
         </div>
     
-    <p class="text-white text-lg lg:text-lg">Well, everything you need if you aren't that picky about minor details like tax compliance. </p>
+    <p class="text-gray-200 text-lg lg:text-lg">Well, everything you need if you aren't that picky about minor details like tax compliance. </p>
 
 
     
     </div>
 
     <div class="features-box w-auto mx-4 mt-16 pb-8 rounded-lg  backdrop-blur-lg md:backdrop-blur-none bg-transparent lg:shadow-none shadow-lg">
-        <div class="features-tabs flex flex-row py-4 items-center justify-center lg:hidden">
+        <div class="features-tabs flex flex-row pt-8 pb-4 items-center justify-center lg:hidden">
 
 
             
@@ -220,7 +220,7 @@ methods: {
         
         </div>
 
-        <div class="feature-description text-left flex flex-col items-center my-4 text-gray-300 px-4 lg:hidden">
+        <div class="feature-description text-left flex flex-col items-center my-4 pb-6 text-gray-300 px-4 lg:hidden">
             <p id="payroll" class=" w-1/2 ">Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.</p>
             <p id="claim" class="display w-1/2">All of your receipts organized into one place, as long as you don't mind typing in the data by hand.</p>
             
@@ -327,7 +327,7 @@ methods: {
     border-radius: .5rem;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
     border:none;
-    color: #2563ea;
+    color: whitesmoke;
 }
 
 .display {

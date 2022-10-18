@@ -10,7 +10,7 @@ export default {
 
 
         <div>
-         <button class="header-btn bg-white py-2 px-36   rounded-full hover:bg-blue-700 text-black shadow-lg">Get Started <span class="hidden lg:inline">Today</span></button>
+         <button class="header-btn bg-white py-2 px-36 lg:px-16  rounded-full hover:bg-blue-700 text-black shadow-lg">Get Started <span class="hidden lg:inline">Today</span></button>
     </div>
 
 
