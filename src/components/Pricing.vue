@@ -128,7 +128,7 @@ export default {
           <p class="text-left py-2"  ><i class="fa-solid fa-check"></i>Track up to 50 expenses per month</p>
           <p class="text-left py-2"  > <i class="fa-solid fa-check"></i> Automated payroll support</p>
           <p class="text-left py-2"  > <i class="fa-solid fa-check"></i> Export up to 12 reports</p>
-          <p class="text-left py-2"  > <i class="fa-solid fa-check"></i>BUlk reconcile transactions</p>
+          <p class="text-left py-2"  > <i class="fa-solid fa-check"></i>Bulk reconcile transactions</p>
           <p class="text-left py-2"  > <i class="fa-solid fa-check"></i>Track in multiple currencies</p>
         </div>
 

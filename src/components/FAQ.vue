@@ -73,7 +73,7 @@ export default {
   <!--Individual FAQ Card-->
         <div class="faq-card w-full  text-left px-4 md:px-3 md:mb-8 mt-6">
           <strong class="text-xl font-normal md:text-2xl">{{card.question}}</strong>
-          <p class="py-4 text-md md md:w-3/4 text-gray-600">{{card.answer}}</p>
+          <p class="py-2 text-md md md:w-3/4 text-gray-600">{{card.answer}}</p>
 
         </div>
 

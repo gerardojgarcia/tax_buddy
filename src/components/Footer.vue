@@ -9,9 +9,9 @@ export default {
 
 <template>
 
-  <div>
+  <div >
 
-<h6>TaxBuddy</h6>
+<h6 class="text-4xl py-24"><span class="text-blue-600 font-bold">Tax</span>Buddy</h6>
 
 <div class="footer-nav">
 
@@ -21,7 +21,7 @@ export default {
 </div>
 
 <div>
-  <p class="copyright">Copyright @ 2022 TaxBuddy. All rights reserved</p>
+  <p class="copyright text-md text-gray-500">Copyright @ 2022 TaxBuddy. All rights reserved</p>
 </div>
   </div>
 
