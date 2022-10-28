@@ -20,9 +20,7 @@ export default {
 
 </div>
 
-<div>
-  <p class="copyright text-md text-gray-500">Copyright @ 2022 TaxBuddy. All rights reserved</p>
-</div>
+    <p class="copyright text-md text-gray-500">Copyright @ 2022 TaxBuddy. All rights reserved</p>
   </div>
 
 </template>
