@@ -3,15 +3,86 @@ export default {
     name: 'Simplify',
 
   methods: {
-        simplifySelect(){
 
-          const simplifyCardLg = document.getElementById('simplify-card-contact')
-          const simplifyIcon = document.getElementById('simplify-icon')
+     simplifySelectInventory(){
+       const simplifyCardContact = document.getElementById('simplify-card-contact')
+       const simplifyIconContact = document.getElementById('simplify-icon-contact')
 
-           simplifyCardLg.classList.toggle('simplify-selected')
-          simplifyIcon.classList.toggle('simplify-bg')
+          const simplifyCardInventory = document.getElementById('simplify-card-inventory')
+          const simplifyIconInventory = document.getElementById('simplify-icon-inventory')
+          const simplifyImgContainer = document.getElementById("simplify-large-img-container")
 
-        }
+       const simplifyCardReporting = document.getElementById('simplify-card-reporting')
+       const simplifyIconReporting = document.getElementById('simplify-icon-reporting')
+
+           simplifyCardInventory.classList.toggle('simplify-selected')
+          simplifyIconInventory.classList.toggle('simplify-bg')
+
+       simplifyCardContact.classList.remove('simplify-selected')
+       simplifyIconContact.classList.remove('simplify-bg')
+
+       simplifyCardReporting.classList.remove('simplify-selected')
+       simplifyIconReporting.classList.remove('simplify-bg')
+
+
+
+          simplifyImgContainer.scrollTo(750, 0)
+
+        },
+    simplifySelectContact(){
+      const simplifyCardContact = document.getElementById('simplify-card-contact')
+      const simplifyIconContact = document.getElementById('simplify-icon-contact')
+
+      const simplifyCardInventory = document.getElementById('simplify-card-inventory')
+      const simplifyIconInventory = document.getElementById('simplify-icon-inventory')
+      const simplifyImgContainer = document.getElementById("simplify-large-img-container")
+      const simplifyCardReporting = document.getElementById('simplify-card-reporting')
+      const simplifyIconReporting = document.getElementById('simplify-icon-reporting')
+
+      simplifyCardReporting.classList.remove('simplify-selected')
+      simplifyIconReporting.classList.remove('simplify-bg')
+
+      simplifyCardInventory.classList.remove('simplify-selected')
+      simplifyIconInventory.classList.remove('simplify-bg')
+
+      simplifyCardContact.classList.toggle('simplify-selected')
+      simplifyIconContact.classList.toggle('simplify-bg')
+
+
+
+      simplifyImgContainer.scrollTo(0, 0)
+
+    },
+    simplifySelectReporting(){
+      const simplifyCardContact = document.getElementById('simplify-card-contact')
+      const simplifyIconContact = document.getElementById('simplify-icon-contact')
+
+      const simplifyCardInventory = document.getElementById('simplify-card-inventory')
+      const simplifyIconInventory = document.getElementById('simplify-icon-inventory')
+
+      const simplifyCardReporting = document.getElementById('simplify-card-reporting')
+      const simplifyIconReporting = document.getElementById('simplify-icon-reporting')
+
+
+
+      const simplifyImgContainer = document.getElementById("simplify-large-img-container")
+
+      simplifyCardReporting.classList.toggle('simplify-selected')
+      simplifyIconReporting.classList.toggle('simplify-bg')
+
+      simplifyCardInventory.classList.remove('simplify-selected')
+      simplifyIconInventory.classList.remove('simplify-bg')
+
+      simplifyCardContact.classList.remove('simplify-selected')
+      simplifyIconContact.classList.remove('simplify-bg')
+
+
+
+      simplifyImgContainer.scrollTo(1900, 0)
+
+    },
+
+
 
 
 
@@ -138,10 +209,10 @@ export default {
         <!--Simplify Card Lg flex  container-->
         <div class="flex flex-row overflow-x-auto  ">
         <!--Simplify Card Lg-->
-        <div @click="simplifySelect()" id="simplify-card-contact" class="simplify-contact-lg mx-4 cursor-pointer simplify-selected">
+        <div @click="simplifySelectContact" id="simplify-card-contact" class="simplify-contact-lg mx-4 cursor-pointer simplify-selected">
           <div class="text-left w-full px-2 isolate  bg-white rounded pb-10 pt-10">
             <div class="self-start  text-4xl   bg-white rounded ">
-              <div id="simplify-icon" class=" simplify-bg bg-gray-300 w-10 h-10 flex flex-col justify-center rounded-lg items-center">
+              <div id="simplify-icon-contact" class=" simplify-bg bg-gray-300 w-10 h-10 flex flex-col justify-center rounded-lg items-center">
 
                 <i  class=" fa-solid fa-users text-white text-base  "></i>
 
@@ -159,10 +230,10 @@ export default {
         </div>
 
         <!--Simplify Card Lg-->
-        <div id="simplify-card-inventory" class="simplify-contact-lg px-6 cursor-pointer">
+        <div @click="simplifySelectInventory()" id="simplify-card-inventory" class="simplify-contact-lg px-6 cursor-pointer">
           <div class="text-left w-full px-2 isolate  bg-white rounded pb-10 pt-10">
             <div class="self-start  text-4xl   bg-white rounded ">
-              <div class="bg-gray-300 w-10 h-10 flex flex-col justify-center rounded-lg items-center">
+              <div id="simplify-icon-inventory" class="bg-gray-300 w-10 h-10 flex flex-col justify-center rounded-lg items-center">
 
                 <i class="fa-solid fa-users text-white text-base  "></i>
 
@@ -180,10 +251,10 @@ export default {
         </div>
 
         <!--Simplify Card Lg-->
-        <div id="simplify-card-reporting" class="simplify-contact-lg px-6 cursor-pointer">
+        <div @click="simplifySelectReporting" id="simplify-card-reporting" class="simplify-contact-reporting px-6 cursor-pointer">
           <div class="text-left w-full px-2 isolate  bg-white rounded pb-10 pt-10">
             <div class="self-start  text-4xl   bg-white rounded ">
-              <div class="bg-gray-300 w-10 h-10 flex flex-col justify-center rounded-lg items-center card-desc">
+              <div id="simplify-icon-reporting" class="bg-gray-300 w-10 h-10 flex flex-col justify-center rounded-lg items-center card-desc">
 
                 <i class="fa-solid fa-users text-white text-base  "></i>
 
@@ -203,20 +274,20 @@ export default {
 
         <!-- Simplify Lg image container-->
 
-        <div class=" simplify-large-img-container flex flex-row bg-gray-200 mt-12 p-8 mb-24 overflow-x-auto no-scrollbar isolate rounded-3xl  self-center border-gray-800 shadow-inner ">
-          <div class="simplify-lg-img w-full shadow-lg z-2 mr-6 ">
+        <div id="simplify-large-img-container" class=" simplify-large-img-container flex flex-row bg-gray-200 mt-12 p-8 px-24 mb-24 overflow-x-auto no-scrollbar isolate rounded-3xl  self-center border-gray-800 shadow-inner scroll-smooth ">
+          <div class="simplify-lg-img w-full shadow-lg z-2 mr-12 ml-12 rounded-lg">
 
             <img src="/contacts.png" alt="" class="  rounded">
 
 
           </div>
-          <div class="simplify-lg-img w-full shadow-lg z-2 mr-6 ">
+          <div class="simplify-lg-img w-full shadow-lg z-2 mr-12 rounded-lg ">
 
             <img src="/contacts.png" alt="" class=" rounded">
 
 
           </div>
-          <div class="simplify-lg-img w-full shadow-lg z-2 rounded-lg">
+          <div class="simplify-lg-img w-full shadow-lg z-2 rounded-lg mr-12">
 
             <img src="/contacts.png" alt="" class="simplify-lg-img rounded">
 
