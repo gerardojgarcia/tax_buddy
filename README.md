@@ -3,5 +3,13 @@
 
 -- built with Vue3 + Vite
 
+-- Responsive Design 
+
+-- Fast load time
+
+-- High Google page Insight Score
+
+-- media in webp format
+
 
 
