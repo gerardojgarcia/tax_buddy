@@ -57,42 +57,42 @@ export default {
       {
           id: 1,
           name: 'Statamic',
-          src: '/statamic.png'
+          src: '/statamic.webp'
 
 
         },
         {
           id: 2,
           name: 'StaticKit',
-          src: '/statickit.png'
+          src: '/statickit.webp'
 
 
         },
         {
           id: 3,
           name: 'Transistor',
-          src: '/transistor.png'
+          src: '/transistor.webp'
 
 
         },
         {
           id: 4,
           name: 'Laravel',
-          src: '/laravel.png'
+          src: '/laravel.webp'
 
 
         },
         {
           id: 5,
           name: 'Mirage',
-          src: '/mirage.png'
+          src: '/mirage.webp'
 
 
         },
         {
           id: 6,
           name: 'Tuple',
-          src: '/tuple.png'
+          src: '/tuple.webp'
 
 
         }

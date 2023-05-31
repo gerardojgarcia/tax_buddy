@@ -131,7 +131,7 @@ export default {
 
             <div class="w-full shadow-lg z-2 translate-x-4  -translate-y-4">
 
-                <img src="/reporting.png" alt="" class="rounded">
+                <img src="/reporting.webp" alt="" class="rounded">
 
 
             </div>
@@ -161,7 +161,7 @@ export default {
 
             <div class="w-full shadow-lg z-2 translate-x-4  -translate-y-4">
 
-                <img src="/inventory.png" alt="Image of sample inventory" class="rounded">
+                <img src="/inventory.webp" alt="Image of sample inventory" class="rounded">
 
 
             </div>
@@ -191,7 +191,7 @@ export default {
 
             <div class="w-full shadow-lg z-2 translate-x-4  -translate-y-4">
 
-                <img src="/contacts.png" alt="" class="rounded">
+                <img src="/contacts.webp" alt="" class="rounded">
 
 
             </div>
@@ -242,7 +242,7 @@ export default {
 
             </div>
             <p class="text-gray-400  pt-8 pb-4">Inventory</p>
-            <strong class="text-xl font-normal my-4">Organize all of your contacts, service, providers, and invoices in one place.  </strong>
+            <strong class="text-xl font-normal my-4">Keep track of assets with immaculate reporting. Stay up to date with everything you have on hand </strong>
 
             <p class="  py-4 text-gray-500 ">This also isn't actually a feature, it's just some friendly advice. We definitely recommend that you do this. You'll feel really organized and professional.</p>
 
@@ -274,22 +274,22 @@ export default {
 
         <!-- Simplify Lg image container-->
 
-        <div id="simplify-large-img-container" class=" simplify-large-img-container flex flex-row bg-gray-200 mt-12 p-8 px-24 mb-24 overflow-x-auto no-scrollbar isolate rounded-3xl  self-center border-gray-800 shadow-inner scroll-smooth ">
+        <div id="simplify-large-img-container" class=" simplify-large-img-container flex flex-row bg-gray-200 mt-12 p-8 px-24 mb-24 overflow-hidden  isolate rounded-3xl  self-center border-gray-800 shadow-inner scroll-smooth ">
           <div class="simplify-lg-img w-full shadow-lg z-2 mr-12 ml-12 rounded-lg">
 
-            <img src="/contacts.png" alt="" class="  rounded">
+            <img src="/contacts.webp" alt="" class="  rounded">
 
 
           </div>
           <div class="simplify-lg-img w-full shadow-lg z-2 mr-12 rounded-lg ">
 
-            <img src="/contacts.png" alt="" class=" rounded">
+            <img src="/inventory.webp" alt="" class=" rounded">
 
 
           </div>
           <div class="simplify-lg-img w-full shadow-lg z-2 rounded-lg mr-12">
 
-            <img src="/contacts.png" alt="" class="simplify-lg-img rounded">
+            <img src="/reports.webp" alt="" class="simplify-lg-img rounded">
 
 
           </div>

@@ -229,9 +229,9 @@ methods: {
 
         <div class="features-imgs lg:hidden">
         
-            <img src="/claims.png" id="claim-img" alt="Image of the claims dashboard" class="feature-img translate-x-52  shadow-lg display">
-            <img src="/reports.png" id="report-img" alt="Image of the reports dashboard" class="feature-img translate-x-52  shadow-lg">
-            <img src="/expenses.png" id="expense-img" alt="Image of the expenses dashboard" class="feature-img display translate-x-52  shadow-lg">
+            <img src="/claims.webp" id="claim-img" alt="Image of the claims dashboard" class="feature-img translate-x-52  shadow-lg display">
+            <img src="/reports.webp" id="report-img" alt="Image of the reports dashboard" class="feature-img translate-x-52  shadow-lg">
+            <img src="/expenses.webp" id="expense-img" alt="Image of the expenses dashboard" class="feature-img display translate-x-52  shadow-lg">
         
         </div>
 
@@ -270,9 +270,9 @@ methods: {
         
         
         
-        <img src="/claims.png" id="claim-img-lg" alt="Image of the claims dashboard" class="feature-img translate-x-8  shadow-lg display">
-        <img src="/reports.png" id="report-img-lg" alt="Image of the reports dashboard" class="feature-img translate-x-8  shadow-lg">
-        <img src="/expenses.png" id="expense-img-lg" alt="Image of the expenses dashboard" class="feature-img display translate-x-8  shadow-lg">
+        <img src="/claims.webp" id="claim-img-lg" alt="Image of the claims dashboard" class="feature-img translate-x-8  shadow-lg display">
+        <img src="/reports.webp" id="report-img-lg" alt="Image of the reports dashboard" class="feature-img translate-x-8  shadow-lg">
+        <img src="/expenses.webp" id="expense-img-lg" alt="Image of the expenses dashboard" class="feature-img display translate-x-8  shadow-lg">
     
     
     
